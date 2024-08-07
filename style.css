@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-family: "Overpass";
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Overpass", sans-serif;
+    background-color: hsl(216, 12%, 8%); /*very dark blue*/
+    color: hsl(217, 12%, 63%); /*light grey*/
+}
+
+h1 {
+    font-weight: 700;
+    color: white;
+}
+
+#star {
+    display: flex;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 25%);
+    width: 45px;
+    height: 45px;
+    /* margin: 20px; */
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.text,
+.numbers, 
+#submit {
+    width: 90%;
+}
+
+button {
+    cursor: pointer;
+}
+
+.rating.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 11%));
+    /* background-color: hsl(213, 19%, 18%); */
+    border-radius: 30px;
+    width: min(400px, 80vw);
+    text-align: start;
+    padding: clamp(20px, 5%, 25px);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.numbers button {
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 25%);
+    width: 45px;
+    height: 45px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: 400;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
