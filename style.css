@@ -25,6 +25,14 @@ p {
     line-height: 1.5rem;
 }
 
+span {
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 20%);
+    border-radius: 30px;
+    /* width: 50%; */
+    padding: 10px 30px;
+}
+
 #star {
     display: flex;
     border-radius: 50%;
@@ -36,10 +44,9 @@ p {
     align-self: flex-start;
 }
 
-.text,
-.numbers, 
-#submit {
-    width: 90%;
+.text {
+    display: flex;
+    flex-direction: column;
 }
 
 button {
@@ -47,16 +54,15 @@ button {
 }
 
 .card {
-    display: none;
+    display: flex;
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
-    width: min(400px, 80vw);
+    width: clamp(300px, 80vw, 420px);
     padding: clamp(20px, 5%, 25px);
-    margin: 10px;
+    margin-bottom: 10px;
 }
 
 .rating.card {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -65,7 +71,6 @@ button {
 }
 
 .thanks.card {
-    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -73,13 +78,21 @@ button {
     background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 12%));
 }
 
+.hidden {
+    display: none;
+}
+
 .numbers {
     display: flex;
     justify-content: space-between;
-    margin: 20px;
+    margin: 5%;
+    width: 100%;
 }
 
 .numbers button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     background-color: hsl(213, 19%, 20%);
     width: 50px;
@@ -103,6 +116,7 @@ button {
 }
 
 #submit {
+    width: 100%;
     border: none;
     border-radius: 30px;
     text-transform: uppercase;
@@ -111,7 +125,7 @@ button {
     font-size: 1rem;
     font-weight: 400;
     letter-spacing: 0.05rem;
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     transition: background-color 250ms linear,
                 color 250ms linear;
