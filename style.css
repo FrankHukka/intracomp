@@ -16,6 +16,8 @@ h1 {
     font-weight: 700;
     color: white;
     font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 25px;
 }
 
 p {
@@ -23,14 +25,14 @@ p {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.5rem;
+    margin-top: 0;
 }
 
 span {
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 20%);
     border-radius: 30px;
-    /* width: 50%; */
-    padding: 10px 30px;
+    padding: 5px 20px;
 }
 
 #star {
@@ -57,15 +59,15 @@ button {
     display: flex;
     background-color: hsl(213, 19%, 18%);
     border-radius: 30px;
-    width: clamp(300px, 80vw, 420px);
-    padding: clamp(20px, 5%, 25px);
-    margin-bottom: 10px;
+    width: clamp(350px, 90vw, 415px);
+    padding: 30px;
+    margin: 10px;
+    align-items: center;
 }
 
 .rating.card {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: start;
     background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 12%));
 }
@@ -73,9 +75,12 @@ button {
 .thanks.card {
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     text-align: center;
     background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 12%));
+}
+
+.thanks.card img {
+    margin: 30px;
 }
 
 .hidden {
@@ -84,7 +89,7 @@ button {
 
 .numbers {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 5%;
     width: 100%;
 }
