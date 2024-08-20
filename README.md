@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: Coming soon
+- [Solution](https://www.frontendmentor.io/solutions/interactive-rating-page-with-flexbox-GtMPxCmolp)
 - [Live Site](https://frankhukka.github.io/intracomp/)
 
 ## My process
@@ -48,7 +48,7 @@ Users should be able to:
 
 In this project I learned to manipulate the DOM with JavaScript. I learned to register event handlers to listen to click events in the page.
 
-The most challenging part for me was to get the thank you state to show up, while the rating state disappeared. I finally figured it out by utilizing the `Element.classList` property, specifically `Element.classList.remove` and `Element.classList.add` methods to remove and add the "hidden" property, respectively. After that, the most difficult thing was to just style the cards properly.
+The most challenging part for me was to get the thank you state to show up, while the rating state disappeared. I finally figured it out by utilizing the `Element.classList` property, specifically `Element.classList.remove()` and `Element.classList.add()` methods to remove and add the "hidden" property, respectively. After that, the most difficult thing was to just style the cards properly.
 
 ### Continued development
 
