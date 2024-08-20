@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Preview of the rating stage](.images/Screenshot-rating.png)
-![Preview of the thank you stage](.images/Screenshot-thanks.png)
+![Preview of the rating stage](images/Screenshot-rating.png)
+![Preview of the thank you stage](images/Screenshot-thanks.png)
 
 ### Links
 
